@@ -1,8 +1,37 @@
-<html>
-    <head>
-    <script src="mySketch.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js" type="text/javascript"></script>
-    </head>
-<body>
-</body>
 
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <title>白沙火舞社大成-點</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- p5.js 載入 -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.js"></script>
+
+  <!-- 畫布樣式 -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    canvas {
+      /* 不拉伸、不變形，維持原始大小 */
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="mySketch.js" type="text/javascript"></script>
+</body>
 </html>
